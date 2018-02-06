@@ -1,16 +1,12 @@
-#!/Users/coljac/anaconda/envs/owl/bin/python
+#!env python
 
 import sys
-import os
-import time
-import coltools as ct
 import urllib2
 from bs4 import BeautifulSoup
-from collections import defaultdict, OrderedDict
+from collections import OrderedDict
 import webbrowser
 
 URL = 'https://www.reddit.com/r/overwatched/comments/7pjn08/overwatch_league_season_1_stage_1/'
-# URL = 'file://' + os.environ['HOME'] + '/dev/dev/owl/ow.html'
 
 def main(argv):
 
